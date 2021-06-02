@@ -6,11 +6,13 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "react-hooks"
+    "react-hooks",
+    "sonarjs"
   ],
   "extends": [
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:sonarjs/recommended"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
