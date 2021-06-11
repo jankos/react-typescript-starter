@@ -12,14 +12,14 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverage: true,
   coverageDirectory: './dist/coverage/unit',
-  collectCoverageFrom: ['**/*.{ts,tsx,js,jsx}'],
+  collectCoverageFrom: ['./src/**/*.{ts,tsx,js,jsx}'],
   coverageReporters: ['json', 'lcov', 'text'],
   coverageThreshold: {
     "global": {
       "branches": 80,
       "functions": 80,
       "lines": 80,
-      "statements": -10
+      "statements": 80
     }
   }
 }
