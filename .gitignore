@@ -1,0 +1,6 @@
+/.storybook
+/node_modules/
+package-lock.json
+debug.log
+/src/stories
+/dist
